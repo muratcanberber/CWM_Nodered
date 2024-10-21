@@ -782,6 +782,23 @@
         "wires": []
     },
     {
+        "id": "4c774c323c4aa359",
+        "type": "debug",
+        "z": "1de86a8c009f6431",
+        "name": "latest",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 910,
+        "y": 760,
+        "wires": []
+    },
+    {
         "id": "5b99920b7208a130",
         "type": "ui-text-input",
         "z": "51d9f31023dcb87e",
