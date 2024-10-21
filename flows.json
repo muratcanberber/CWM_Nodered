@@ -782,52 +782,6 @@
         "wires": []
     },
     {
-        "id": "cecf32594501cba8",
-        "type": "debug",
-        "z": "1de86a8c009f6431",
-        "name": "tesst ",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 890,
-        "y": 660,
-        "wires": []
-    },
-    {
-        "id": "95f9f07235b86494",
-        "type": "inject",
-        "z": "1de86a8c009f6431",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 720,
-        "y": 640,
-        "wires": [
-            [
-                "cecf32594501cba8"
-            ]
-        ]
-    },
-    {
         "id": "66ab5492120c526f",
         "type": "debug",
         "z": "1de86a8c009f6431",
