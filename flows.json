@@ -799,6 +799,35 @@
         "wires": []
     },
     {
+        "id": "95f9f07235b86494",
+        "type": "inject",
+        "z": "1de86a8c009f6431",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 710,
+        "y": 700,
+        "wires": [
+            [
+                "cecf32594501cba8"
+            ]
+        ]
+    },
+    {
         "id": "5b99920b7208a130",
         "type": "ui-text-input",
         "z": "51d9f31023dcb87e",
