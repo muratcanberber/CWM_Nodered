@@ -828,6 +828,23 @@
         ]
     },
     {
+        "id": "66ab5492120c526f",
+        "type": "debug",
+        "z": "1de86a8c009f6431",
+        "name": "main",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 890,
+        "y": 600,
+        "wires": []
+    },
+    {
         "id": "5b99920b7208a130",
         "type": "ui-text-input",
         "z": "51d9f31023dcb87e",
@@ -2114,22 +2131,5 @@
         "wires": [
             []
         ]
-    },
-    {
-        "id": "66ab5492120c526f",
-        "type": "debug",
-        "z": "1de86a8c009f6431",
-        "name": "main",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 870,
-        "y": 620,
-        "wires": []
     }
 ]
